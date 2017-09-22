@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD7E858E1F66B07500E0B6BD /* StitchBgi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7E858D1F66B07500E0B6BD /* StitchBgi.jpg */; };
+		AD7E85901F66C07500E0B6BD /* StitchRightBtn_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7E858F1F66C07500E0B6BD /* StitchRightBtn_icon.png */; };
+		AD7E85BA1F6816A000E0B6BD /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E85B91F6816A000E0B6BD /* DemoViewController.swift */; };
+		AD7E85BC1F6818BE00E0B6BD /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E85BB1F6818BE00E0B6BD /* UIViewExtension.swift */; };
+		AD7E85C01F6819C400E0B6BD /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E85BF1F6819C400E0B6BD /* SubView.swift */; };
+		AD7E85C61F6967D800E0B6BD /* iPhoneX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7E85C51F6967D800E0B6BD /* iPhoneX.jpg */; };
+		AD7E85C91F6A74B600E0B6BD /* PomPompurinBgi.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7E85C81F6A74B600E0B6BD /* PomPompurinBgi.png */; };
+		AD7E85CD1F6A751E00E0B6BD /* PomPomPurinTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E85CC1F6A751E00E0B6BD /* PomPomPurinTheme.swift */; };
+		AD7E85D11F6A76F500E0B6BD /* PomPomPurinRightBtn_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7E85D01F6A76F500E0B6BD /* PomPomPurinRightBtn_icon.png */; };
+		ADD929071F5FA41400EE2F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD929061F5FA41400EE2F91 /* AppDelegate.swift */; };
+		ADD9290E1F5FA41400EE2F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD9290D1F5FA41400EE2F91 /* Assets.xcassets */; };
+		ADD929111F5FA41400EE2F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD9290F1F5FA41400EE2F91 /* LaunchScreen.storyboard */; };
+		ADD9291B1F5FA51100EE2F91 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9291A1F5FA51100EE2F91 /* MainTabBarViewController.swift */; };
+		ADD9291D1F5FA59000EE2F91 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9291C1F5FA59000EE2F91 /* FirstViewController.swift */; };
+		ADD9291F1F5FA5A000EE2F91 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9291E1F5FA5A000EE2F91 /* SecondViewController.swift */; };
+		ADD929231F5FE89600EE2F91 /* UIViewViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD929221F5FE89600EE2F91 /* UIViewViewControllerExtension.swift */; };
+		ADD929251F60DC3500EE2F91 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD929241F60DC3500EE2F91 /* SuperViewController.swift */; };
+		ADD929271F60DDA000EE2F91 /* MarukoRightBgi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADD929261F60DDA000EE2F91 /* MarukoRightBgi.jpg */; };
+		ADD9292B1F60F40800EE2F91 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9292A1F60F40800EE2F91 /* ThemeProtocol.swift */; };
+		ADD929321F60F58B00EE2F91 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD929311F60F58B00EE2F91 /* ThemeManager.swift */; };
+		ADD9293A1F62220C00EE2F91 /* ThemeSwitcherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD929391F62220C00EE2F91 /* ThemeSwitcherCell.swift */; };
+		ADD9293E1F661FFA00EE2F91 /* MarukoTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9293D1F661FFA00EE2F91 /* MarukoTheme.swift */; };
+		ADD929401F6620A600EE2F91 /* StitchTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9293F1F6620A600EE2F91 /* StitchTheme.swift */; };
+		ADD929421F6679D800EE2F91 /* MarukoRightBtn_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD929411F6679D800EE2F91 /* MarukoRightBtn_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD7E858D1F66B07500E0B6BD /* StitchBgi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StitchBgi.jpg; sourceTree = "<group>"; };
+		AD7E858F1F66C07500E0B6BD /* StitchRightBtn_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StitchRightBtn_icon.png; sourceTree = "<group>"; };
+		AD7E85B91F6816A000E0B6BD /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		AD7E85BB1F6818BE00E0B6BD /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		AD7E85BF1F6819C400E0B6BD /* SubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		AD7E85C51F6967D800E0B6BD /* iPhoneX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhoneX.jpg; sourceTree = "<group>"; };
+		AD7E85C81F6A74B600E0B6BD /* PomPompurinBgi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PomPompurinBgi.png; sourceTree = "<group>"; };
+		AD7E85CC1F6A751E00E0B6BD /* PomPomPurinTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PomPomPurinTheme.swift; sourceTree = "<group>"; };
+		AD7E85D01F6A76F500E0B6BD /* PomPomPurinRightBtn_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PomPomPurinRightBtn_icon.png; sourceTree = "<group>"; };
+		ADD929031F5FA41400EE2F91 /* ThemeDemoForSwiftGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeDemoForSwiftGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD929061F5FA41400EE2F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADD9290D1F5FA41400EE2F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD929101F5FA41400EE2F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADD929121F5FA41400EE2F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD9291A1F5FA51100EE2F91 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		ADD9291C1F5FA59000EE2F91 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ADD9291E1F5FA5A000EE2F91 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ADD929221F5FE89600EE2F91 /* UIViewViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewViewControllerExtension.swift; sourceTree = "<group>"; };
+		ADD929241F60DC3500EE2F91 /* SuperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		ADD929261F60DDA000EE2F91 /* MarukoRightBgi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarukoRightBgi.jpg; sourceTree = "<group>"; };
+		ADD9292A1F60F40800EE2F91 /* ThemeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		ADD929311F60F58B00EE2F91 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		ADD929391F62220C00EE2F91 /* ThemeSwitcherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSwitcherCell.swift; sourceTree = "<group>"; };
+		ADD9293D1F661FFA00EE2F91 /* MarukoTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarukoTheme.swift; sourceTree = "<group>"; };
+		ADD9293F1F6620A600EE2F91 /* StitchTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StitchTheme.swift; sourceTree = "<group>"; };
+		ADD929411F6679D800EE2F91 /* MarukoRightBtn_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarukoRightBtn_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD929001F5FA41400EE2F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD7E85C71F6A5F8D00E0B6BD /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				ADD929261F60DDA000EE2F91 /* MarukoRightBgi.jpg */,
+				ADD929411F6679D800EE2F91 /* MarukoRightBtn_icon.png */,
+				AD7E858D1F66B07500E0B6BD /* StitchBgi.jpg */,
+				AD7E858F1F66C07500E0B6BD /* StitchRightBtn_icon.png */,
+				AD7E85C81F6A74B600E0B6BD /* PomPompurinBgi.png */,
+				AD7E85D01F6A76F500E0B6BD /* PomPomPurinRightBtn_icon.png */,
+				AD7E85C51F6967D800E0B6BD /* iPhoneX.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		ADD928FA1F5FA41300EE2F91 = {
+			isa = PBXGroup;
+			children = (
+				ADD9293B1F661F0100EE2F91 /* Extension */,
+				ADD929331F6120C800EE2F91 /* ThemeManager */,
+				ADD929301F60F51F00EE2F91 /* Theme */,
+				ADD929361F61490500EE2F91 /* ViewControllers */,
+				ADD9293C1F661F0800EE2F91 /* View */,
+				AD7E85C71F6A5F8D00E0B6BD /* Image */,
+				ADD929051F5FA41400EE2F91 /* ThemeDemoForSwiftGirl */,
+				ADD929041F5FA41400EE2F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD929041F5FA41400EE2F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD929031F5FA41400EE2F91 /* ThemeDemoForSwiftGirl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD929051F5FA41400EE2F91 /* ThemeDemoForSwiftGirl */ = {
+			isa = PBXGroup;
+			children = (
+				ADD929061F5FA41400EE2F91 /* AppDelegate.swift */,
+				ADD9290D1F5FA41400EE2F91 /* Assets.xcassets */,
+				ADD9290F1F5FA41400EE2F91 /* LaunchScreen.storyboard */,
+				ADD929121F5FA41400EE2F91 /* Info.plist */,
+			);
+			path = ThemeDemoForSwiftGirl;
+			sourceTree = "<group>";
+		};
+		ADD929301F60F51F00EE2F91 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ADD9292A1F60F40800EE2F91 /* ThemeProtocol.swift */,
+				ADD9293D1F661FFA00EE2F91 /* MarukoTheme.swift */,
+				ADD9293F1F6620A600EE2F91 /* StitchTheme.swift */,
+				AD7E85CC1F6A751E00E0B6BD /* PomPomPurinTheme.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		ADD929331F6120C800EE2F91 /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				ADD929311F60F58B00EE2F91 /* ThemeManager.swift */,
+			);
+			name = ThemeManager;
+			sourceTree = "<group>";
+		};
+		ADD929361F61490500EE2F91 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADD929241F60DC3500EE2F91 /* SuperViewController.swift */,
+				ADD9291A1F5FA51100EE2F91 /* MainTabBarViewController.swift */,
+				ADD9291C1F5FA59000EE2F91 /* FirstViewController.swift */,
+				ADD9291E1F5FA5A000EE2F91 /* SecondViewController.swift */,
+				AD7E85B91F6816A000E0B6BD /* DemoViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ADD9293B1F661F0100EE2F91 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ADD929221F5FE89600EE2F91 /* UIViewViewControllerExtension.swift */,
+				AD7E85BB1F6818BE00E0B6BD /* UIViewExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		ADD9293C1F661F0800EE2F91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADD929391F62220C00EE2F91 /* ThemeSwitcherCell.swift */,
+				AD7E85BF1F6819C400E0B6BD /* SubView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD929021F5FA41400EE2F91 /* ThemeDemoForSwiftGirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD929151F5FA41400EE2F91 /* Build configuration list for PBXNativeTarget "ThemeDemoForSwiftGirl" */;
+			buildPhases = (
+				ADD928FF1F5FA41400EE2F91 /* Sources */,
+				ADD929001F5FA41400EE2F91 /* Frameworks */,
+				ADD929011F5FA41400EE2F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeDemoForSwiftGirl;
+			productName = ThemeDemoForSwiftGirl;
+			productReference = ADD929031F5FA41400EE2F91 /* ThemeDemoForSwiftGirl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD928FB1F5FA41300EE2F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Minhan Ru";
+				TargetAttributes = {
+					ADD929021F5FA41400EE2F91 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GB8URDLYB2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ADD928FE1F5FA41300EE2F91 /* Build configuration list for PBXProject "ThemeDemoForSwiftGirl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD928FA1F5FA41300EE2F91;
+			productRefGroup = ADD929041F5FA41400EE2F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD929021F5FA41400EE2F91 /* ThemeDemoForSwiftGirl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD929011F5FA41400EE2F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E85D11F6A76F500E0B6BD /* PomPomPurinRightBtn_icon.png in Resources */,
+				AD7E85C61F6967D800E0B6BD /* iPhoneX.jpg in Resources */,
+				ADD929271F60DDA000EE2F91 /* MarukoRightBgi.jpg in Resources */,
+				AD7E85901F66C07500E0B6BD /* StitchRightBtn_icon.png in Resources */,
+				ADD929111F5FA41400EE2F91 /* LaunchScreen.storyboard in Resources */,
+				ADD9290E1F5FA41400EE2F91 /* Assets.xcassets in Resources */,
+				AD7E85C91F6A74B600E0B6BD /* PomPompurinBgi.png in Resources */,
+				AD7E858E1F66B07500E0B6BD /* StitchBgi.jpg in Resources */,
+				ADD929421F6679D800EE2F91 /* MarukoRightBtn_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD928FF1F5FA41400EE2F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD9291B1F5FA51100EE2F91 /* MainTabBarViewController.swift in Sources */,
+				ADD9293E1F661FFA00EE2F91 /* MarukoTheme.swift in Sources */,
+				ADD929401F6620A600EE2F91 /* StitchTheme.swift in Sources */,
+				AD7E85BA1F6816A000E0B6BD /* DemoViewController.swift in Sources */,
+				ADD929071F5FA41400EE2F91 /* AppDelegate.swift in Sources */,
+				AD7E85C01F6819C400E0B6BD /* SubView.swift in Sources */,
+				ADD9292B1F60F40800EE2F91 /* ThemeProtocol.swift in Sources */,
+				ADD929231F5FE89600EE2F91 /* UIViewViewControllerExtension.swift in Sources */,
+				ADD9291F1F5FA5A000EE2F91 /* SecondViewController.swift in Sources */,
+				ADD929251F60DC3500EE2F91 /* SuperViewController.swift in Sources */,
+				AD7E85BC1F6818BE00E0B6BD /* UIViewExtension.swift in Sources */,
+				ADD9291D1F5FA59000EE2F91 /* FirstViewController.swift in Sources */,
+				ADD9293A1F62220C00EE2F91 /* ThemeSwitcherCell.swift in Sources */,
+				ADD929321F60F58B00EE2F91 /* ThemeManager.swift in Sources */,
+				AD7E85CD1F6A751E00E0B6BD /* PomPomPurinTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADD9290F1F5FA41400EE2F91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD929101F5FA41400EE2F91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADD929131F5FA41400EE2F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADD929141F5FA41400EE2F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD929161F5FA41400EE2F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GB8URDLYB2;
+				INFOPLIST_FILE = ThemeDemoForSwiftGirl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BL.ThemeDemoForSwiftGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ADD929171F5FA41400EE2F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GB8URDLYB2;
+				INFOPLIST_FILE = ThemeDemoForSwiftGirl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BL.ThemeDemoForSwiftGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD928FE1F5FA41300EE2F91 /* Build configuration list for PBXProject "ThemeDemoForSwiftGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD929131F5FA41400EE2F91 /* Debug */,
+				ADD929141F5FA41400EE2F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD929151F5FA41400EE2F91 /* Build configuration list for PBXNativeTarget "ThemeDemoForSwiftGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD929161F5FA41400EE2F91 /* Debug */,
+				ADD929171F5FA41400EE2F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADD928FB1F5FA41300EE2F91 /* Project object */;
+}
