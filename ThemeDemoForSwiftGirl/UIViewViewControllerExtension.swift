@@ -33,12 +33,14 @@ extension UIViewController
     func setNavigationRightBtn(imageName:String ,btnSelector:Selector)
     {
         let btnBack = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        btnBack.widthAnchor.constraint(equalToConstant: 36).isActive = true
+        btnBack.heightAnchor.constraint(equalToConstant: 36).isActive = true
         btnBack.setBackgroundImage(UIImage(named: imageName), for: UIControlState.normal)
         btnBack.setBackgroundImage(UIImage(named: imageName), for: UIControlState.highlighted)
         btnBack.contentVerticalAlignment = UIControlContentVerticalAlignment.center
         btnBack.contentHorizontalAlignment = UIControlContentHorizontalAlignment.right
         btnBack.addTarget(self, action: btnSelector, for: UIControlEvents.touchUpInside)
-        
+
         let btnBackBarButtonItem = UIBarButtonItem(customView: btnBack)
         btnBackBarButtonItem.style = UIBarButtonItemStyle.plain
         self.navigationItem.rightBarButtonItem = btnBackBarButtonItem
