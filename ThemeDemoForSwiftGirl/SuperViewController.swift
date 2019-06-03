@@ -27,7 +27,7 @@ class SuperViewController: UIViewController {
  
     
     
-    func handelNotification(notification: NSNotification) {
+    @objc func handelNotification(notification: NSNotification) {
         guard let theme = notification.object as? ThemeProtocol else {
             return
         }

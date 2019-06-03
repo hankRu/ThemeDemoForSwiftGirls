@@ -35,14 +35,14 @@ extension UIViewController
         let btnBack = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
         btnBack.widthAnchor.constraint(equalToConstant: 36).isActive = true
         btnBack.heightAnchor.constraint(equalToConstant: 36).isActive = true
-        btnBack.setBackgroundImage(UIImage(named: imageName), for: UIControlState.normal)
-        btnBack.setBackgroundImage(UIImage(named: imageName), for: UIControlState.highlighted)
-        btnBack.contentVerticalAlignment = UIControlContentVerticalAlignment.center
-        btnBack.contentHorizontalAlignment = UIControlContentHorizontalAlignment.right
-        btnBack.addTarget(self, action: btnSelector, for: UIControlEvents.touchUpInside)
+        btnBack.setBackgroundImage(UIImage(named: imageName), for: UIControl.State.normal)
+        btnBack.setBackgroundImage(UIImage(named: imageName), for: UIControl.State.highlighted)
+        btnBack.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
+        btnBack.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.right
+        btnBack.addTarget(self, action: btnSelector, for: UIControl.Event.touchUpInside)
 
         let btnBackBarButtonItem = UIBarButtonItem(customView: btnBack)
-        btnBackBarButtonItem.style = UIBarButtonItemStyle.plain
+        btnBackBarButtonItem.style = UIBarButtonItem.Style.plain
         self.navigationItem.rightBarButtonItem = btnBackBarButtonItem
     }
 }

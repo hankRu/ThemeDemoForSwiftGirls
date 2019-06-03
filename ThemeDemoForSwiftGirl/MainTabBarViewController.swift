@@ -24,13 +24,18 @@ class MainTabBarViewController: UITabBarController {
         NotificationCenter.default.addObserver(self, selector: #selector(handelNotification(notification:)), name: ThemeNotifacationName, object: nil)
     }
 
-    func handelNotification(notification: NSNotification) {
+    @objc func handelNotification(notification: NSNotification) {
         guard let theme = notification.object as? ThemeProtocol else {
             return
         }
         self.tabBar.tintColor = theme.navBarColor
     }
-
+//    override func viewWillLayoutSubviews() {
+//        var rect = self.tabBar.frame
+//        rect.origin.y = 100
+//        self.tabBar.frame = rect
+//
+//    }
     
     override func didReceiveMemoryWarning()
     {

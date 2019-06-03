@@ -31,7 +31,7 @@ enum CellThemeType: Int {
 
 class ThemeSwitcherCell: UITableViewCell {
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?)
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?)
     {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.selectionStyle = .none
@@ -42,7 +42,7 @@ class ThemeSwitcherCell: UITableViewCell {
         ThemeManager.themeUpdate()
     }
     
-    func handelNotification(notification: NSNotification) {
+    @objc func handelNotification(notification: NSNotification) {
         guard let theme = notification.object as? ThemeProtocol else {
             return
         }

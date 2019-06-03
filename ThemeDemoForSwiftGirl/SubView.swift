@@ -49,7 +49,7 @@ class SubView: UIView {
         priceLabel.frame = CGRect(x: 0, y: (self.frame.height / 2) + 2, width: self.frame.width, height: (self.frame.height / 2) - 1)
     }
     
-    func handelNotification(notification: NSNotification)
+    @objc func handelNotification(notification: NSNotification)
     {
         guard let theme = notification.object as? ThemeProtocol else
         {

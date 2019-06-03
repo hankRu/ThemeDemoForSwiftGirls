@@ -48,7 +48,7 @@ class FirstViewController: SuperViewController {
     }
  
     
-    func RightBtnPressed(_ sender: Any)
+    @objc func RightBtnPressed(_ sender: Any)
     {
         self.navigationController?.pushViewController(DemoViewController(), animated: true)
     }
